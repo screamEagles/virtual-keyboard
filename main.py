@@ -1,8 +1,8 @@
 import cv2
+import cvzone  # cvzone version: 1.4.1
 from cvzone.HandTrackingModule import HandDetector
 from time import sleep
 import numpy as np
-import cvzone
 from pynput.keyboard import Controller
 
 cap = cv2.VideoCapture(0)
